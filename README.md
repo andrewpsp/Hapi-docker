@@ -19,7 +19,7 @@ This will initialize a new container and run your app on 0.0.0.0:3000
 
 # Test
 
-`curl http://<ip>:3000`
+`curl http://<ip>:3000/hello`
 
 HTML response back the server all configurable.
 
