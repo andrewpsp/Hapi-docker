@@ -1,5 +1,5 @@
 # Pull base image from offical node repository to date 9.0
-FROM node
+FROM node:erbium-buster-slim
 
 # Maintainer
 LABEL Author="admin@entercloud" 
