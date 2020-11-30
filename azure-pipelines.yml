@@ -12,7 +12,7 @@ variables:
   tag: '$(Build.BuildId)'
 
 stages:
-- stage: excellence Build
+- stage: Build
   displayName: Build excellence image
   jobs:  
   - job: Build
