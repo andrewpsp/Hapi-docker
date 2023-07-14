@@ -11,7 +11,7 @@ ADD . /usr/src/app
 WORKDIR /usr/src/app
 
 # Install the express generator which gives you also scaffolding tools.
-RUN npm install hapi
+RUN npm install --save @hapi/hapi
 
 # Expose the node.js port to the Docker host.
 EXPOSE 3000
