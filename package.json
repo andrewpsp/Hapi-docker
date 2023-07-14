@@ -1,0 +1,29 @@
+{
+  "name": "hapi-docker",
+  "version": "0.0.0",
+  "description": "Instantiate Hapi.JS running in Docker",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewpsp/Hapi-docker.git"
+  },
+  "keywords": [
+    "hapijs",
+    "docker"
+  ],
+  "author": {
+    "email": "drewpsp@gmail.com",
+    "name": "Andrew Thompson"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewpsp/Hapi-docker/issues"
+  },
+  "homepage": "https://github.com/andrewpsp/Hapi-docker#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2"
+  }
+}

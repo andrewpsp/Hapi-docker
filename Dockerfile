@@ -1,5 +1,5 @@
-# Pull base image from offical node repository to date 9.0
-FROM node:erbium-buster-slim
+# Pull base image from offical node repository to latest
+FROM node:latest
 
 # Maintainer
 LABEL Author="admin@entercloud" 
@@ -11,7 +11,7 @@ ADD . /usr/src/app
 WORKDIR /usr/src/app
 
 # Install the express generator which gives you also scaffolding tools.
-RUN npm install hapi
+RUN npm install
 
 # Expose the node.js port to the Docker host.
 EXPOSE 3000
